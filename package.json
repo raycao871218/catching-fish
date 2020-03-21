@@ -1,0 +1,39 @@
+{
+  "name": "booming",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "prop-types": "^15.7.2",
+    "pusher-js": "^5.1.1",
+    "react": "^16.13.0",
+    "react-axios": "^2.0.3",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
+    "react-keydown": "^1.9.12",
+    "react-pusher": "^0.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts-ts": "^4.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.3",
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

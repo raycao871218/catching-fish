@@ -1,0 +1,49 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+.square:focus {
+    outline: none;
+}
+
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.big-border{
+    border: 1px solid #000;
+}
+
+.hit {
+    background-color: #ff9900 !important;
+}
+.destroy{
+    background-color: #ff5555 !important;
+}
+.miss{
+    background-color: #338836 !important;
+}
+.mark{
+    background-color: #9043d3;
+}
+.set{
+    background-color: #5e5e5e;
+}
+.setting{
+    opacity: 0.75;
+}
+.error-setting{
+    background-color: #f5a2a2;
+}
+  
